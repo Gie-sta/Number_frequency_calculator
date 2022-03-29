@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+body {
+  padding: 0 20px;
+}
+
+section {
+  max-width: 750px;
+  margin: 20px auto 0 auto;
+}
+.content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h1 {
+  align-self: start;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+p {
+  align-self: flex-start;
+}
+
+#chart {
+  margin: 20px auto;
+}
+.btn-num {
+  margin-top: 5px;
+  margin-right: 25px;
+  align-self: flex-end;
+}
+#btnText {
+  margin-top: 8px;
+}
+
+input {
+  width: 45px;
+  margin: 2px;
+}
+.input-more {
+  margin-right: 6.4px;
+}
+
+#text {
+  width: 100%;
+  max-width: 550px;
+}
+.canvas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

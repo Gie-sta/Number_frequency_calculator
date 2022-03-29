@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>Number frequency calculator</title>
+  </head>
+  <body>
+    <section class="container-s .d-inline- shadow p-3 mb-5 bg-body rounded">
+      <div class="content">
+        <h1 class="h3">Number frequency calculator</h1>
+        <form class="number-inputs">
+          <p>Write one number in the each field</p>
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+          <input type="number" name="number" />
+        </form>
+        <button id="btn" class="btn btn-secondary btn-sm btn-num">
+          Add more numbers
+        </button>
+        <button id="reset" class="btn btn-warning btn-sm btn-num">Reset</button>
+        <p>Or...</p>
+        <p>Write a list of numbers separated by commas or spaces</p>
+        <textarea
+          id="text"
+          class="form-control"
+          aria-label="With textarea"
+        ></textarea>
+        <div id="info"></div>
+        <button id="btnText" class="btn btn-success">Calculate</button>
+        <div class="canvas">
+          <canvas id="chart"></canvas>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
